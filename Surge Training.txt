@@ -5,3 +5,5 @@ Passcode: qF72w7Gq
 git remote add origin <repository_URL>
 git branch -M main
 git push -u origin main
+git clone <repository_URL>
+
