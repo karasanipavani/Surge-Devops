@@ -89,55 +89,55 @@ b= 4
 # calculator()
 
 # relational operators  <,<=,>,>=,==,!=
-# a = 15
-# b = 2
-# print("a < b:", a < b)
-# print("a <= b:", a <= b)
-# print("a > b:", a > b)
-# print("a >= b:", a >= b)
-# print("a == b:", a == b)
-# print("a != b:", a != b)
+a = 15
+b = 2
+print("a < b:", a < b)
+print("a <= b:", a <= b)
+print("a > b:", a > b)
+print("a >= b:", a >= b)
+print("a == b:", a == b)
+print("a != b:", a != b)
 
 # logical operators  and, or, not
-# a = True
-# b = False
-# print("a and b:", a and b)
-# print("a or b:", a or b)
-# print("not a:", not a)
+a = True
+b = False
+print("a and b:", a and b)
+print("a or b:", a or b)
+print("not a:", not a)
 
 # bitwise operators  &, |, ^, ~, <<, >>
-# a = 5
-# b = 3
-# print("a & b:", a & b)
-# print("a | b:", a | b)
-# print("a ^ b:", a ^ b)
-# print("~a:", ~a)
-# print("a << 1:", a << 1)
-# print("a >> 1:", a >> 1)
+a = 5
+b = 3
+print("a & b:", a & b)
+print("a | b:", a | b)
+print("a ^ b:", a ^ b)
+print("~a:", ~a)
+print("a << 1:", a << 1)
+print("a >> 1:", a >> 1)
 
 
-# assignment operators  =, +=, -=, *=, /=, %=, **=, //=
-# a = 10
-# b = 5
-# a += b
-# print("a += b:", a)
-# a -= b
-# print("a -= b:", a)
-# a *= b
-# print("a *= b:", a)
-# a /= b
-# print("a /= b:", a)
-# a %= b
-# print("a %= b:", a)
-# a **= b
-# print("a **= b:", a)
-# a //= b
-# print("a //= b:", a)
+#assignment operators  =, +=, -=, *=, /=, %=, **=, //=
+a = 10
+b = 5
+a += b
+print("a += b:", a)
+a -= b
+print("a -= b:", a)
+a *= b
+print("a *= b:", a)
+a /= b
+print("a /= b:", a)
+a %= b
+print("a %= b:", a)
+a **= b
+print("a **= b:", a)
+a //= b
+print("a //= b:", a)
 
-# identity operators  is, is not
+# # identity operators  is, is not
 
-# is = true if the operands are identical
-# is not true if the operands are not identical
+# # is = true if the operands are identical
+# # is not true if the operands are not identical
 
 a = 10
 b = 10
