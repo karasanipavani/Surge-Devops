@@ -51,3 +51,39 @@ print ("division", a / b)
 print ("modulus", a % b)
 print ("exponentiation", a ** b)
 print ("floor division", a // b)
+
+
+def calculator():
+    count = int(input("How many numbers do you want to enter? "))
+
+    numbers = []
+    for i in range(count):
+        num = float(input(f"Enter number {i + 1}: "))
+        numbers.append(num)
+
+    operation = input(
+        "Choose operation (+, -, *, /): "
+    )
+
+    result = numbers[0]
+
+    for num in numbers[1:]:
+        if operation == "+":
+            result += num
+        elif operation == "-":
+            result -= num
+        elif operation == "*":
+            result *= num
+        elif operation == "/":
+            if num == 0:
+                print("Error: Division by zero is not allowed.")
+                return
+            result /= num
+        else:
+            print("Invalid operation!")
+            return
+
+    print("Result:", result)
+
+
+calculator()
